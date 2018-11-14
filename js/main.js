@@ -402,32 +402,32 @@ function initMap() {
 // anchorLinks('a[href^="#priceAnchor"]');
 // anchorLinks('a[href^="#orderAnchor"]');
 
-$(window).scroll(function () {
-    if ($('.header').visible(true)) {
-        deselectAll();
-        $('a[href^="#header"]').addClass('current');
-    }
-
-    if ($('.services').visible(true)) {
-        deselectAll();
-        $('a[href^="#servicesAnchor"]').addClass('current');
-    }
-
-    if($('.works').visible(true)) {
-        deselectAll();
-        $('a[href^="#worksAnchor"]').addClass('current');
-    }
-
-    if($('.work-statistic').visible(true)) {
-        deselectAll();
-        $('a[href^="#priceAnchor"]').addClass('current');
-    }
-
-    if($('.b-form').visible(true)) {
-        deselectAll();
-        $('a[href^="#orderAnchor"]').addClass('current');
-    }
-})
+// $(window).scroll(function () {
+//     if ($('.header').visible(true)) {
+//         deselectAll();
+//         $('a[href^="#header"]').addClass('current');
+//     }
+//
+//     if ($('.services').visible(true)) {
+//         deselectAll();
+//         $('a[href^="#servicesAnchor"]').addClass('current');
+//     }
+//
+//     if($('.works').visible(true)) {
+//         deselectAll();
+//         $('a[href^="#worksAnchor"]').addClass('current');
+//     }
+//
+//     if($('.work-statistic').visible(true)) {
+//         deselectAll();
+//         $('a[href^="#priceAnchor"]').addClass('current');
+//     }
+//
+//     if($('.b-form').visible(true)) {
+//         deselectAll();
+//         $('a[href^="#orderAnchor"]').addClass('current');
+//     }
+// })
 
 //form validation
 

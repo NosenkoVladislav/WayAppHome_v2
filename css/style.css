@@ -259,7 +259,7 @@ input[type=file] {
 }
 
 .h-text {
-    padding: 25px 70px;
+    padding: 70px;
     font-weight: bold;
     position: relative;
     display: flex;
